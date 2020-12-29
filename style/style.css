@@ -1,0 +1,47 @@
+/** 
+***   CSS - Each Section heading in bold when open 
+**/
+details.accordion[open] summary {
+    font-weight: bold;
+}  
+/********************/
+
+details.accordion summary {
+    background: #ADD8E6;
+    margin: 0;
+    padding: 10px;
+    color: #000000;
+    font-size: 1.3em;
+} 
+#main_content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+}
+h1 {
+    margin: 20px;
+}
+#accordion_containter {
+    flex-basis: 100%;
+    padding: 10px;
+    margin: 0;
+}
+.accord_heading {
+    margin: 20px 10px;
+    color: #FF4500;
+    font-size: 1.5em;
+    background: #cccccc;
+    padding: 10px;
+}
+.sub-drop {
+    flex-basis: 100%;
+    margin: 10px 10px 30px;
+    border: 1px solid #cccccc;
+}
+.sub_section {
+    color: #696969;
+}
+.sub-drop p {
+    margin: 10px 15px;
+    padding: 0 10px 0;
+}

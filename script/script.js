@@ -1,5 +1,4 @@
 
-window.onload = function () {
     "use strict";
 
     // Select all the accordion class element
@@ -20,5 +19,3 @@ window.onload = function () {
             });
         }
     }
-
-};
